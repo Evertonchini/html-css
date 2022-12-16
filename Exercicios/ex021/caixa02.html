@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+    <link rel="shortcut icon" href="../favicon/Hopstarter-Sleek-Xp-Software-Dev.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(223, 217, 217);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.897);
+            padding: 1px;
+            margin: 10px;
+        }
+
+        #assuntos {
+            background-color: rgb(222, 228, 228);
+            padding: 0px;
+            margin: 10px;
+            
+        }
+
+        nav {
+            background-color: rgb(160, 157, 157);
+            padding: 3px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+           
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px;
+            box-shadow: 1px 2px 3px rgb(133, 128, 128);
+        }
+        article {
+            background-color: silver;
+            padding: 1px;
+        }
+
+        article > aside {
+            background-color: rgb(114, 114, 114);
+        }
+
+        footer {
+            background-color: darkgrey;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        
+       /* Aqui fizemos uma bola ultilizando border-radius 50%, para facilitar nosso dia a dia.
+        div.bola {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%            
+        } */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politícas Tecnologia</p>
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quod, recusandae a doloremque deserunt quasi architecto! Deleniti, quis mollitia nesciunt doloremque magni nobis iste similique ipsam, velit, nam repellat ex?</p>
+                <aside>
+                    <p>Artígo Escrito por Everton Cavachini.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por BellCorporation</p>
+    </footer>
+    <div class="bola"></div>
+</body>
+</html>

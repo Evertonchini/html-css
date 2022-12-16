@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'principal';
+    src: url('_fonts/asap/Asap-VariableFont_wght.ttf') format('truetype'), url('_fonts/downlink/Downlink.otf') format('opentype');
+    font-weight: normal;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1:#1F5373;
+    --cor2:#638CA6;
+    --cor3:#8FADBF;
+    --cor4:#B6CFE1;
+    --cor5:#CBDEEE;
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --font-historia: 'asap', sans-serif;
+    --font-hardware:'downlink',cursive,
+
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+body {
+    background-color: #8FADBF;
+
+}
+
+header {
+    background-color: #1F5373;
+    text-align: center;
+    padding: 20px;
+    border-top: ridge;
+    
+}
+
+header > h1 {
+    color: #CBDEEE;
+    text-shadow: 3px 2px 1px black;
+}
+section {
+    margin: -12px;
+}
+
+article > h1 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.6em;
+    text-shadow: 0px 1px 0px #00000054;
+    background-image: linear-gradient(45deg, #6d92c3a3, #6ed5f385);
+    margin: 0px -8px 20px;
+    border-bottom: double 3px;
+}
+
+h2 {
+    background-image: linear-gradient(1deg, #0f79bd78, #5a7eed05);
+    padding: 1px 4px;
+    margin: auto;
+
+}
+
+p {
+    font-family: var(--font-hardware);
+    text-align: justify;
+    text-indent: 1.3em;
+    line-height: 1.0em;
+    padding: 12px;
+    font-size: 1.5em;
+}
+
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -3px 11px -3px;
+    padding-bottom: 30%;
+    position: relative;
+}
+
+div > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+nav { 
+    background-image: linear-gradient(#4c99d161,#01619bb5);
+    padding: 3px;
+
+}
+
+nav > a  {
+    background-color: #09edff4d;
+    padding: 1px 14px 2px 22px;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: -4px;
+    font-family: var(--font-hardware);
+}
+
+nav > a:hover {
+    font-family: var(--font-hardware);
+    display:inline;
+    text-decoration: underline;
+    color: white;
+}
+
+main {
+    background-color: #a5c7df;
+    margin: auto;
+    padding: 20px;
+    max-width: 1000px;
+    min-width: 300px;
+    box-shadow: 1px 1px 2px 0px #0000007a;
+}
+
+
+footer {
+    background-image: linear-gradient(45deg, #48bfd58f, transparent);
+    text-align: center;
+    font-size: 1em;
+
+}

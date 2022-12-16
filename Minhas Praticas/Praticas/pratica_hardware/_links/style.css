@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'principal';
+    src: url('_fonts/asap/Asap-VariableFont_wght.ttf') format('truetype'), url('_fonts/downlink/Downlink.otf') format('opentype');
+    font-weight: normal;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1:#1F5373;
+    --cor2:#638CA6;
+    --cor3:#8FADBF;
+    --cor4:#B6CFE1;
+    --cor5:#CBDEEE;
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --font-historia: 'asap', sans-serif;
+    --font-hardware:'downlink',cursive,
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1:#1F5373;
+    --cor2:#638CA6;
+    --cor3:#8FADBF;
+    --cor4:#B6CFE1;
+    --cor5:#CBDEEE;
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --font-historia: 'asap', sans-serif;
+    --font-hardware:'downlink',cursive,
+
+}
+
+a.externo:hover {
+    color: rgba(1, 17, 22, 0.973);
+}
+
+a {
+    color: rgba(24, 24, 241, 0.733);
+}
+
+body {
+    background-color: var(--cor4);
+
+}
+
+header {
+    background-color: #1F5373;
+    text-align: center;
+    padding: 20px;
+    border-top: ridge;
+    
+}
+
+header > h1 {
+    color: #CBDEEE;
+    text-shadow: 3px 2px 1px black;
+    text-align: center;
+}
+
+nav {
+    background-image: linear-gradient(#4c99d161,#01619bb5);
+    padding: 3px;
+    
+}
+
+nav > a  {
+    background-color: #09edff4d;
+    padding: 1px 14px 2px 22px;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: -4px;
+}
+
+nav > a:hover {
+    font-family: var(--font-hardware);
+    display:inline;
+    text-decoration: underline;
+    color: white;
+}
+
+main {
+    background-color: #a5c7df;
+    margin: auto;
+    padding: 6px 0px 326px;
+    box-shadow: 1px 1px 2px 0px #0000007a;
+}
+
+
+section {
+    background-color: #a5c7df;
+    margin: auto;
+    border: groove black 2px;
+    min-width: 350px;
+
+}
+
+
+section h1 {
+    text-indent: 5px;
+    box-shadow: 2px 1px 1px black;
+    background-image: linear-gradient(44deg, #0abfd545, #a1d2e538);
+    font-size: 26px;
+    
+} 
+
+section > ul {
+
+    list-style: inside;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 10px;
+}
+
+footer {
+    background-image: linear-gradient(45deg, #48bfd58f, transparent);
+    text-align: center;
+    font-size: 1em;
+
+}
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudos</title>
+    <link rel="shortcut icon" href="favicon/Hopstarter-Sleek-Xp-Software-Dev.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1:hover {
+            color: chartreuse;
+            background-color: brown;
+            padding: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+
+        .especial1::after{
+            content: ' < ';
+            font-size: larger; 
+        }
+
+        .especial1::before {
+            content: ' > ';
+            font-size: larger;
+        }
+
+        .especial1:hover {
+            color: rgba(103, 145, 60, 0.774);
+            background-color: rgba(127, 255, 212, 0.418);
+
+        }
+
+        .especial2:active {
+            background-color: rgba(185, 43, 43, 0.61);
+            font-size: 2em;                
+        }
+
+        .especial2::after{
+            content: '↞';
+        }
+
+        .especial2::before {
+            content: '↠	';
+        }
+    </style>
+</head>
+<body>
+    <h1>Praticando pseudos</h1>
+    <p class="especial1">Passe o mouse aqui</p>
+    <p class="especial2">clique aqui</p>
+</body>
+</html>

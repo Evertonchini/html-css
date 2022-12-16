@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'principal';
+    src: url('_fonts/asap/Asap-VariableFont_wght.ttf') format('truetype'), url('_fonts/downlink/Downlink.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor1:#1F5373;
+    --cor2:#638CA6;
+    --cor3:#8FADBF;
+    --cor4:#B6CFE1;
+    --cor5:#CBDEEE;
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --font-historia: 'asap', sans-serif;
+    --font-hardware:'downlink',cursive,
+}
+
+
+body {
+    background-color: var(--cor3);
+}
+
+nav > a  {
+    background-color: #09edff4d;
+    padding: 1px 14px 2px 22px;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: -4px;
+}
