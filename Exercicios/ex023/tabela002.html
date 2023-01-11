@@ -23,11 +23,30 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative; /* Configuração comportamental sem modificação*/
         }
-        td {
+
+        td, th {
     
             border: 1px solid black;
             padding: 10px;
+        }
+
+        /*
+        tbody > tr:nth-child(odd) {
+            background-color: aquamarine;
+        }
+        */
+
+        thead > tr > th {
+            position: sticky; /*Configuração que cola no cabeçalho na tabela*/
+            top: -1px; /*Configuração que deixa o cabeçalho sem espaço no topo*/
+            background-color: rgba(39, 38, 38, 0.945);
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+            
         }
 
         td.num {
@@ -233,5 +252,34 @@
                 </tr>
         </tfoot>
     </table>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel autem, recusandae dolorem molestiae sequi eaque sunt commodi dicta temporibus assumenda perferendis animi accusamus amet laborum quaerat distinctio qui enim est!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, eius. Adipisci iure facilis dignissimos at maxime alias quam dolore magni ad, amet ratione quas incidunt et explicabo in iusto sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptatem ipsa id nesciunt praesentium quae, dicta fugiat modi nostrum est dolore culpa, facere tempora odit accusantium iusto esse delectus ipsum.
+    </p>
+
+    
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel autem, recusandae dolorem molestiae sequi eaque sunt commodi dicta temporibus assumenda perferendis animi accusamus amet laborum quaerat distinctio qui enim est!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, eius. Adipisci iure facilis dignissimos at maxime alias quam dolore magni ad, amet ratione quas incidunt et explicabo in iusto sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptatem ipsa id nesciunt praesentium quae, dicta fugiat modi nostrum est dolore culpa, facere tempora odit accusantium iusto esse delectus ipsum.
+    </p>
+
+    
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel autem, recusandae dolorem molestiae sequi eaque sunt commodi dicta temporibus assumenda perferendis animi accusamus amet laborum quaerat distinctio qui enim est!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, eius. Adipisci iure facilis dignissimos at maxime alias quam dolore magni ad, amet ratione quas incidunt et explicabo in iusto sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptatem ipsa id nesciunt praesentium quae, dicta fugiat modi nostrum est dolore culpa, facere tempora odit accusantium iusto esse delectus ipsum.
+    </p>
+
+    
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel autem, recusandae dolorem molestiae sequi eaque sunt commodi dicta temporibus assumenda perferendis animi accusamus amet laborum quaerat distinctio qui enim est!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, eius. Adipisci iure facilis dignissimos at maxime alias quam dolore magni ad, amet ratione quas incidunt et explicabo in iusto sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptatem ipsa id nesciunt praesentium quae, dicta fugiat modi nostrum est dolore culpa, facere tempora odit accusantium iusto esse delectus ipsum.
+    </p>
+
+    
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel autem, recusandae dolorem molestiae sequi eaque sunt commodi dicta temporibus assumenda perferendis animi accusamus amet laborum quaerat distinctio qui enim est!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, eius. Adipisci iure facilis dignissimos at maxime alias quam dolore magni ad, amet ratione quas incidunt et explicabo in iusto sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptatem ipsa id nesciunt praesentium quae, dicta fugiat modi nostrum est dolore culpa, facere tempora odit accusantium iusto esse delectus ipsum.
+    </p>
+
+    
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel autem, recusandae dolorem molestiae sequi eaque sunt commodi dicta temporibus assumenda perferendis animi accusamus amet laborum quaerat distinctio qui enim est!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, eius. Adipisci iure facilis dignissimos at maxime alias quam dolore magni ad, amet ratione quas incidunt et explicabo in iusto sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptatem ipsa id nesciunt praesentium quae, dicta fugiat modi nostrum est dolore culpa, facere tempora odit accusantium iusto esse delectus ipsum.
+    </p>
 </body>
 </html>
