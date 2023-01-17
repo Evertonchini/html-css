@@ -56,16 +56,15 @@
     <h1>Desafio Tabela 03</h1>
     <table>
         <thead>
-            <tr>
-                <td rowspan="3">Área</td>
-                <td rowspan="3">Disciplina</td>
-                <td colspan="2">Notas</td>
-                <td rowspan="3">Média</td>
+                <th rowspan="3" scope="row">Área</td>
+                <th rowspan="3" scope="row">Disciplina</td>
+                <th colspan="2" scope="rowgroup">Notas</td>
+                <th rowspan="3" scope="row">Média</td>
                 
-             </tr>
+             
              <tr>
-                <td>Notas 1</td>
-                <td>Nota 2</td>
+                <th scope="colgroup">Notas 1</th>
+                <th scope="colgroup">Nota 2</th>
              </tr>
 
              
@@ -73,7 +72,7 @@
 
         <tbody>
             <tr>
-                <td rowspan="5">Exatas</td>
+                <td rowspan="5"><strong>Exatas</strong></td>
             </tr>  
 
             <tr>
@@ -106,12 +105,12 @@
             
 
             <tr>
-                <th colspan="4" class="ME">Média de Exatas</th>
+                <th colspan="4" class="ME" scope="col">Média de Exatas</th>
                 <th class="RME">7</td>
             </tr>
 
             <tr>
-                <td rowspan="2">Humanas</td>
+                <td rowspan="2"><strong>Humanas</strong></td>
                 <td>História</td>
                 <td>10</td>
                 <td>5</td>
@@ -127,7 +126,7 @@
             </tr>
 
             <tr>
-                <th colspan="4" class="ME">Média de Humanas</th>
+                <th colspan="4" class="ME" scope="col">Média de Humanas</th>
                 <th class="RME">8</th>
             </tr>
 
