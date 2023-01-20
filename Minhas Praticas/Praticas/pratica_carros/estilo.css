@@ -1,0 +1,140 @@
+body {
+    background: rgb(3, 1, 1);
+}
+
+header {
+    font: normal 10 arial;
+    color: rgba(255, 255, 255, 0.733);
+    text-align: center;
+    box-shadow: 2px 1px 4px rgb(184, 30, 30);
+
+}
+div#p1 {
+    color: rgba(160, 160, 160, 0.692);
+    font: normal 10 arial;
+    text-align: center;
+    box-shadow: 2px 1px 4px red;
+}
+
+iframe {
+    width: 500px;
+    height: 500px;  
+}
+img {
+    border: 3px;
+    border-color: rgb(119, 107, 107);
+    border-style:inset;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgb(90, 87, 87);
+    margin-left: 200pt;
+    margin-right: auto;
+    width: 640px;
+    height: auto;
+
+}
+div#marcas {
+    text-align:justify;
+}
+
+div.container {
+        background: white ;
+        background-size: cover;
+}
+
+figure > img {
+    position: absolute;
+}
+h2 {
+    color: rgb(255, 10, 1);
+    padding: 1px;
+    text-align: center;
+    font: normal 25pt arial;
+
+}
+/*p {
+    text-align: justify 50px;
+    text-indent: 50px;
+    font: normal 19px arial;
+}*/
+p#Aston {
+    text-align: justify;
+    text-indent: 50px;
+    background: fixed rgb(255, 255, 255, 0.733);
+    border: 1px;
+    border-color: rgb(85, 0, 0);
+    box-shadow: 1px 1px 5px black;
+    border-style: inset;
+    font: normal 19px arial;
+
+}
+
+p#MBA200 {
+    text-align: justify;
+    text-indent: 50px;
+    background: fixed rgb(255, 255, 255, 0.733);
+    border: 5px;
+    border-color: rgb(85, 0, 0);
+    box-shadow: 1px 1px 5px black;
+    border-style: inset;
+    font: normal 19px arial;
+}
+
+/*article#FichaFe {
+    background: fixed rgba(255, 255, 255, 0.733);
+    border: 5px;
+    border-style:groove;
+    border-color: rgb(85, 0, 0);
+    box-shadow: 1px 1px 5px black;
+} */
+
+
+h3 {
+    color: rgb(146, 146, 146);
+    width: 200px;
+    font-size: normal 25pt arial;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h4 {
+    color: rgb(96, 0, 175);
+    font: normal 25pt arial;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h5 {
+    color: rgb(6, 92, 6);
+    text-align: center;
+    font: normal 25pt arial;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table#tableinf {
+    background-image: url(_imagen_Marcadagua/Marca-d-agua.png);
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    text-align: center;
+    color: rgb(245, 244, 244);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table#tableinf td {
+    border: 2px solid #021142;
+    border-spacing: 1px;
+    padding-left:2%;
+
+}
+caption{
+    text-align: center;
+    color: rgb(88, 187, 218);
+    font: normal 15pt arial;
+}
+footer{
+    text-align: end;
+    padding: 300pt;
+    color: rgb(92, 113, 207);
+}
