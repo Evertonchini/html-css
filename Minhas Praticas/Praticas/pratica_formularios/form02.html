@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Formulário</title>
+    <link rel="shortcut icon" href="favicon/Hopstarter-Sleek-Xp-Software-Dev.ico" type="image/x-icon">
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(241, 233, 217);
+        }
+        
+        h1 {
+            font-size: 1.9em;
+            text-decoration: underline;
+        }
+
+        form {
+            text-align: justify;
+            
+        }
+
+        label {
+            color: black;
+            font-size: 1.3em;
+
+        }
+
+        footer {
+            background-image: linear-gradient(to right, rgba(38, 38, 78, 0.644), rgba(66, 47, 13, 0.685));
+            text-align: center;
+            color: rgb(207, 207, 206);
+            margin: 112px -6px 15px;
+            width: 100%;
+            padding: 6px 5px 4px;
+            height: 21px;
+            text-shadow: 1px 1px 1px black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="server.php" method="get" autocomplete="on">
+        <p>
+            <label for="lnome">Nome:</label >
+            <input type="text" name="nome" id="lnome" required placeholder="Digite seu nome" minlength="5" size="20">
+        </p>
+
+        <p>
+            <label for="lsnome">Sobrenome:</label>
+            <input type="text" name="snome" id="lsnome" required placeholder="Digite seu sobrenome">
+        </p>
+
+        <p>
+            <label for="lidade">Idade:</label>
+            <input type="text" name="idade" id="lidade" required placeholder="Digite sua idade">
+        </p>
+
+        <p>
+            <label for="lnasc">Nascimento:</label>
+            <input type="date" name="nasc" id="lnasc" required>
+        </p>
+
+        <p>
+            <label for="lnat">Naturalidade:</label>
+            <input type="text" name="nat" id="lnat" required placeholder="Digite sua naturalidade">
+        </p>
+        
+        <p>
+            <label for="lmae">Nome da Mãe:</label>
+            <input type="text" name="mae" id="lmae" required placeholder="Digite o nome de sua mãe">
+        </p>
+
+        <p>
+            <label for="lpai">Nome  do Pai:</label>
+            <input type="text" name="pai" id="lpai" required placeholder="Digite o nome de seu pai">
+        </p>
+
+        <p>
+            <label for="ltel">Tel. de Contato:</label>
+            <input type="tel" name="tel" id="ltel" required placeholder="Digite seu número de telefone">
+        </p>
+
+        <p>
+            <label for="lesco">Escolaridade:</label>
+            <input type="radio" name="esco" id="lesco" required>
+            Médio
+            <input type="radio" name="esco" id="lesco" required>
+            Fundamental
+            <input type="radio" name="esco" id="lesco" required>
+            Superior
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+<footer>Site Desenvolvido por Everton Cavachini.</footer>
+</body>
+</html>
