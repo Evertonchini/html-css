@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="lsexmas" checked><label for="lsexmas">Masculino</label>
+            <input type="radio" name="sexo" id="lsexfem"><label for="lsexfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Jogos Favoritos</legend>
+            <input type="checkbox" name="jnfs" id="ljnfs"><label for="ljnfs">Need For Speed Underground 2</label> <br>
+            <input type="checkbox" name="jgta" id="ljgta"><label for="ljgta">Gta San Andreas</label> <br>
+            <input type="checkbox" name="jtkf" id="ljtkf"><label for="ljtkf">The King of fighters 2002</label> <br>
+            <input type="checkbox" name="jdoom" id="ljdoom"><label for="ljdoom">Doom</label>  <br>
+            <input type="checkbox" name="jtstlers" id="ljtstlers"><label for="ljtstlers">The Setlers</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
