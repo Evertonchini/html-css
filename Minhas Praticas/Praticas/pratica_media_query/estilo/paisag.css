@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*Estilo da pagina paisagem */
+
+body {
+    background-image: url('../imagens/paisagem.jpg');
+    background-position: bottom center;    
+    width: 807px;
+}
+

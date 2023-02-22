@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Estilo página principal*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html,body {
+    background-color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+
+h1 {
+    text-shadow: 2px 2px 0px black;
+    padding:10px;
+}
