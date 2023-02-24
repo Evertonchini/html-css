@@ -1,47 +1,79 @@
 @charset "UTF-8";
-/*Versão Mobile First*/
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+/* Todas as demais mídias*/
+
+/* Typical Device Breakpoints
+Pequenas telas: até 600p
+Celular: de 600px até 768px
+tablet: 768 até 992px
+Desktop: 992 até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
+@media print { /* IMPRESSÂO*/
+    body {
+        background-image: url(../imagens/back-print.jpg); /* DESNECESSÀRIO*/
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: white;
+        text-shadow: 2px 1px 1px black;
+    }
+
+    img#phone {display: none;}
+    img#tablet{display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
 }
 
-html {
-    height: 100vh;
+
+@media screen and (min-width: 768px) and (max-width: 992px) /* TABLET*/ {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet{display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
 }
 
-body {
-    background: black url(../imagens/back-phone.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
+@media screen and (min-width:992px) and (max-width:1200px) /* DESKTOP */ {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet{display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+    
 }
 
-main {
-    background-color: rgba(255, 255, 255, 0.767);
-    width: 90vw;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 10px;
+@media screen and (min-width:1200px) /* GRANDES TELAS*/ {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#phone {display: none;}
+    img#tablet{display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
 }
 
-h1 {
-    text-align: center;
-    color: white;
-    font-size: 2em;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.726);
-}
 
-img {
-    display: block;
-    margin: auto;
-}
 
-img#phone { display: block;}
-img#tablet {display: none;}
-img#print {display: none;}
-img#pc {display: none;}
-img#tv {display: none;}
